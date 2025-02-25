@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f0f8ff;
+  margin: 0;
+}
+
+#app {
+  text-align: center;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background: #0078d7;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005a9e;
+}
+
+#output {
+  margin-top: 20px;
+  font-size: 18px;
+}
